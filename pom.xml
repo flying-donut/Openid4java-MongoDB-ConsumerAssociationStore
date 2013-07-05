@@ -4,7 +4,7 @@
     <artifactId>MongoDbConsumerAssociationStore</artifactId>
     <packaging>jar</packaging>
     <name>Openid4java MongoDbConsumerAssociationStore</name>
-    <version>0.9</version>
+    <version>0.9.1-SNAPSHOT</version>
     <description>Openid4java MongoDbConsumerAssociationStore</description>
     <url>https://www.flying-donut.com</url>
     <properties>
