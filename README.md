@@ -1,7 +1,7 @@
 MongoDB ConsumerAssociationStore
 ================================
 
-This is an implementation of the org.openid4java.consumer.ConsumerAssociationStore interface of the Openid4Java library. This interface is used in the org.openid4java.consumer.ConsumerManager to store and retrieve instances of org.openid4java.association.Association. This implementation uses a collection in a MongoDb database as persistent storage. It is part of Flying Donut (https://www.flying-donut.com) and is donated to the community by the Flying Donut team.
+This is an implementation of the org.openid4java.consumer.ConsumerAssociationStore interface of the Openid4Java library. This interface is used in the org.openid4java.consumer.ConsumerManager to store and retrieve instances of org.openid4java.association.Association. This implementation uses a collection in a MongoDb database as persistent storage. It is part of the [Flying Donut] (https://www.flying-donut.com) agile scrum software, and is shared as a contribution to the open source community by the Flying Donut team.
 
 Code and configuration
 ----
@@ -53,7 +53,7 @@ Dependencies
 Copyright and License
 ---
 
-Copyright 2013 Flying Donut
+Copyright 2013 Flying Donut P.C.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this work except in compliance with the License. You may obtain a copy of the License in the LICENSE file, or at:
 
