@@ -49,6 +49,11 @@ Dependencies
             <artifactId>spring-core</artifactId>
             <version>${springframework.version}</version>
         </dependency>
+        <dependency>
+          <groupId>org.openid4java</groupId>
+          <artifactId>openid4java</artifactId>
+          <version>0.9.7</version>
+        </dependency>
     </dependencies>
 ```
 
