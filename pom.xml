@@ -1,0 +1,65 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.flyingdonut</groupId>
+  <artifactId>MongoDbConsumerAssociationStore</artifactId>
+  <packaging>jar</packaging>
+  <name>Openid4java MongoDbConsumerAssociationStore</name>
+  <version>0.9</version>
+  <description>Openid4java MongoDbConsumerAssociationStore</description>
+  <url>https://www.flying-donut.com</url>
+    <properties>
+        <springframework.version>3.2.2.RELEASE</springframework.version>
+        <springframework.security.version>3.1.3.RELEASE</springframework.security.version>
+<!--
+        <easymock.version>3.1</easymock.version>
+        <powermock.version>1.4.12</powermock.version>
+        <junit.version>4.8.2</junit.version>
+        <org.apache.maven.plugins.sources>2.1.1</org.apache.maven.plugins.sources>
+-->
+        <slf4j.version>1.7.2</slf4j.version>
+        <jdk.version>1.7</jdk.version>
+        <tomcat.version>7.0.37</tomcat.version>
+        <mongo-java-driver.version>2.9.1</mongo-java-driver.version>
+<!--
+        <org.apache.httpcomponents.version>4.2.3</org.apache.httpcomponents.version>
+-->
+    </properties>
+    <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>http://github.com/flying-donut/Openid4java-MongoDB-ConsumerAssociationStore</url>
+    <connection>scm:git:git://github.com/flying-donut/Openid4java-MongoDB-ConsumerAssociationStore.git</connection>
+  </scm>
+  <dependencies>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongo-java-driver</artifactId>
+            <version>${mongo-java-driver.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>${springframework.version}</version>
+        </dependency>
+      <dependency>
+          <groupId>org.openid4java</groupId>
+          <artifactId>openid4java</artifactId>
+          <version>0.9.7</version>
+      </dependency>
+  </dependencies>
+</project>
